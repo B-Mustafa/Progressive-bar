@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.bar{
+    background: rgb(94, 94, 94);
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.bar div span{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.html{
+    background: linear-gradient(to right,red,blue);
+    animation: html 2s linear forwards ;
+}
+.css{
+    background: linear-gradient(to right,red,blue);
+    animation: css 2s linear forwards ;
+}
+.js{
+    background: linear-gradient(to right,red,blue);
+    animation: js 2s linear forwards ;
+}
+.next{
+    background: linear-gradient(to right,red,blue);
+    animation: next 2s linear forwards ;
+}
+.python{
+    background: linear-gradient(to right,red,blue);
+    animation: python 2s linear forwards ;
+}
+
+.html span{
+    border: 1px solid #5956ff ;
+}
+.css span{
+    border: 1px solid #1969ff ;
+}
+.js span{
+    border: 1px solid #1b18d1 ;
+}
+.next span{
+    border: 1px solid #3e3cb3 ;
+}
+.python span{
+    border: 1px solid #0f0d8f ;
+}
+
+@keyframes html {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 94%;
+    }
+}
+@keyframes css {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 83%;
+    }
+}
+@keyframes js {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 78%;
+    }
+}
+@keyframes next {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 65%;
+    }
+}
+@keyframes python {
+        from{
+            width: 0px;
+        }
+        to{
+            width: 87%;
+        }
+    }
