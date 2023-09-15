@@ -76,6 +76,4 @@ The CSS Progressive Bar was inspired by the creative work of the open-source com
 
 ## Support
 
-If you need any assistance or have questions, you can contact the project maintainer at [email@example.com](mailto:email@example.com).
-
-Happy coding!
+If you need any assistance or have questions, you can contact the project maintainer at [bhikhapurmustafa@gmail.com]](mailto:bhikhapurmustafa@gmail.com).
